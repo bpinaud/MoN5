@@ -45,6 +45,10 @@ def main(graph):
     viewMetric = graph['viewMetric']
     viewShape = graph['viewShape']
     viewShape.setAllNodeValue(tlp.NodeShape.Icon)
+    viewLabelColor = graph['viewLabelColor']
+    viewLabelColor.setAllNodeValue(255,255,255)
+    viewLabelBorderColor = graph['viewLabelBorderColor']
+    viewLabelBorderColor.setAllNodeValue(255,255,255)
     
     #colors from ColorBrewer site
     categories={
